@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0059C85927D53D6200488163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059C85827D53D6200488163 /* AppDelegate.swift */; };
 		0059C85B27D53D6200488163 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059C85A27D53D6200488163 /* SceneDelegate.swift */; };
-		0059C85D27D53D6200488163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059C85C27D53D6200488163 /* ViewController.swift */; };
+		0059C85D27D53D6200488163 /* DrinksTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059C85C27D53D6200488163 /* DrinksTableVC.swift */; };
 		0059C86027D53D6200488163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0059C85E27D53D6200488163 /* Main.storyboard */; };
 		0059C86327D53D6200488163 /* StarbucksDrinks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0059C86127D53D6200488163 /* StarbucksDrinks.xcdatamodeld */; };
 		0059C86527D53D6700488163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0059C86427D53D6700488163 /* Assets.xcassets */; };
@@ -17,6 +17,11 @@
 		0059C87327D53D6700488163 /* StarbucksDrinksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059C87227D53D6700488163 /* StarbucksDrinksTests.swift */; };
 		0059C87D27D53D6700488163 /* StarbucksDrinksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059C87C27D53D6700488163 /* StarbucksDrinksUITests.swift */; };
 		0059C87F27D53D6700488163 /* StarbucksDrinksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059C87E27D53D6700488163 /* StarbucksDrinksUITestsLaunchTests.swift */; };
+		0059C88C27D53F7400488163 /* DrinkTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059C88B27D53F7400488163 /* DrinkTableViewDelegate.swift */; };
+		0059C88E27D5406E00488163 /* DrinkTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059C88D27D5406E00488163 /* DrinkTableViewDataSource.swift */; };
+		0059C89027D5426F00488163 /* DrinkVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059C88F27D5426E00488163 /* DrinkVCDelegate.swift */; };
+		0059C89527D5485C00488163 /* DrinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059C89327D5485C00488163 /* DrinkTableViewCell.swift */; };
+		0059C89627D5485C00488163 /* DrinkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0059C89427D5485C00488163 /* DrinkTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +45,7 @@
 		0059C85527D53D6200488163 /* StarbucksDrinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarbucksDrinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0059C85827D53D6200488163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0059C85A27D53D6200488163 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0059C85C27D53D6200488163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0059C85C27D53D6200488163 /* DrinksTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksTableVC.swift; sourceTree = "<group>"; };
 		0059C85F27D53D6200488163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0059C86227D53D6200488163 /* StarbucksDrinks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarbucksDrinks.xcdatamodel; sourceTree = "<group>"; };
 		0059C86427D53D6700488163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,11 @@
 		0059C87827D53D6700488163 /* StarbucksDrinksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarbucksDrinksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0059C87C27D53D6700488163 /* StarbucksDrinksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksDrinksUITests.swift; sourceTree = "<group>"; };
 		0059C87E27D53D6700488163 /* StarbucksDrinksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksDrinksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0059C88B27D53F7400488163 /* DrinkTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkTableViewDelegate.swift; sourceTree = "<group>"; };
+		0059C88D27D5406E00488163 /* DrinkTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkTableViewDataSource.swift; sourceTree = "<group>"; };
+		0059C88F27D5426E00488163 /* DrinkVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkVCDelegate.swift; sourceTree = "<group>"; };
+		0059C89327D5485C00488163 /* DrinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkTableViewCell.swift; sourceTree = "<group>"; };
+		0059C89427D5485C00488163 /* DrinkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrinkTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +113,12 @@
 			children = (
 				0059C85827D53D6200488163 /* AppDelegate.swift */,
 				0059C85A27D53D6200488163 /* SceneDelegate.swift */,
-				0059C85C27D53D6200488163 /* ViewController.swift */,
+				0059C85C27D53D6200488163 /* DrinksTableVC.swift */,
+				0059C88B27D53F7400488163 /* DrinkTableViewDelegate.swift */,
+				0059C88D27D5406E00488163 /* DrinkTableViewDataSource.swift */,
+				0059C88F27D5426E00488163 /* DrinkVCDelegate.swift */,
+				0059C89327D5485C00488163 /* DrinkTableViewCell.swift */,
+				0059C89427D5485C00488163 /* DrinkTableViewCell.xib */,
 				0059C85E27D53D6200488163 /* Main.storyboard */,
 				0059C86427D53D6700488163 /* Assets.xcassets */,
 				0059C86627D53D6700488163 /* LaunchScreen.storyboard */,
@@ -236,6 +251,7 @@
 			files = (
 				0059C86827D53D6700488163 /* LaunchScreen.storyboard in Resources */,
 				0059C86527D53D6700488163 /* Assets.xcassets in Resources */,
+				0059C89627D5485C00488163 /* DrinkTableViewCell.xib in Resources */,
 				0059C86027D53D6200488163 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0059C85D27D53D6200488163 /* ViewController.swift in Sources */,
+				0059C85D27D53D6200488163 /* DrinksTableVC.swift in Sources */,
+				0059C88C27D53F7400488163 /* DrinkTableViewDelegate.swift in Sources */,
 				0059C86327D53D6200488163 /* StarbucksDrinks.xcdatamodeld in Sources */,
 				0059C85927D53D6200488163 /* AppDelegate.swift in Sources */,
 				0059C85B27D53D6200488163 /* SceneDelegate.swift in Sources */,
+				0059C88E27D5406E00488163 /* DrinkTableViewDataSource.swift in Sources */,
+				0059C89527D5485C00488163 /* DrinkTableViewCell.swift in Sources */,
+				0059C89027D5426F00488163 /* DrinkVCDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
