@@ -20,6 +20,8 @@ class DrinksTableVC: UITableViewController, DrinKVCDelegate {
         
         self.tableView.delegate = self.drinkTableViewDelegate
         self.tableView.dataSource = self.drinkTableViewDataSource
+        
+        self.navigationController?.navigationBar.prefersLargeTitles = true
     }
     
     func selectedCell(row: Int) {
