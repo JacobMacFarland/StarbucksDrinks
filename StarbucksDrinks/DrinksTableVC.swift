@@ -16,7 +16,15 @@ class DrinksTableVC: UITableViewController, DrinKVCDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.drinkTableViewDelegate = DrinkTableViewDelegate(withDelegate: self)
-        self.drinkTableViewDataSource = DrinkTableViewDataSource(withData: ["Americano", "Drip Coffee", "Espresso", "Caramel Machiatto", "Brown Sugar Espresso"])
+        self.drinkTableViewDataSource = DrinkTableViewDataSource(withData: ["Hot Coffees",
+                                                                            "Hot Teas",
+                                                                            "Hot Drinks",
+                                                                            "Frappuccino Blended Beverages",
+                                                                            "Cold Coffees",
+                                                                            "Iced Teas",
+                                                                            "Cold Drinks"])
+        
+        self.tableView.register(UINib(nibName: "DrinkTableViewCell", bundle: nil), forCellReuseIdentifier: "DrinkTableViewCell")
         
         self.tableView.delegate = self.drinkTableViewDelegate
         self.tableView.dataSource = self.drinkTableViewDataSource

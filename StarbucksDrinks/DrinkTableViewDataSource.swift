@@ -20,9 +20,11 @@ class DrinkTableViewDataSource: NSObject, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
-        cell.textLabel?.text = self.drinkData[indexPath.row]
-        return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "DrinkTableViewCell") as? DrinkTableViewCell
+
+        cell?.drinkTitle?.text = self.drinkData[indexPath.row]
+        cell?.drinkImage?.image = UIImage(named: self.drinkData[indexPath.row])
+        return cell ?? UITableViewCell()
     }
     
 }
