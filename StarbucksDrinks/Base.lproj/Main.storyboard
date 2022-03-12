@@ -30,7 +30,7 @@
                             <outlet property="delegate" destination="8aU-xD-0Yc" id="X0f-rQ-3Lq"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Drinks" id="pPF-79-iik"/>
+                    <navigationItem key="navigationItem" title="Menu" id="pPF-79-iik"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gAe-sr-ZOf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

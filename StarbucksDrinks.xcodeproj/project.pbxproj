@@ -22,6 +22,7 @@
 		0059C89027D5426F00488163 /* DrinkVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059C88F27D5426E00488163 /* DrinkVCDelegate.swift */; };
 		0059C89527D5485C00488163 /* DrinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059C89327D5485C00488163 /* DrinkTableViewCell.swift */; };
 		0059C89627D5485C00488163 /* DrinkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0059C89427D5485C00488163 /* DrinkTableViewCell.xib */; };
+		0059C89827D8278200488163 /* StarbucksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0059C89727D8278200488163 /* StarbucksData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		0059C88F27D5426E00488163 /* DrinkVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkVCDelegate.swift; sourceTree = "<group>"; };
 		0059C89327D5485C00488163 /* DrinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkTableViewCell.swift; sourceTree = "<group>"; };
 		0059C89427D5485C00488163 /* DrinkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrinkTableViewCell.xib; sourceTree = "<group>"; };
+		0059C89727D8278200488163 /* StarbucksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				0059C85827D53D6200488163 /* AppDelegate.swift */,
 				0059C85A27D53D6200488163 /* SceneDelegate.swift */,
 				0059C85C27D53D6200488163 /* DrinksTableVC.swift */,
+				0059C89727D8278200488163 /* StarbucksData.swift */,
 				0059C88B27D53F7400488163 /* DrinkTableViewDelegate.swift */,
 				0059C88D27D5406E00488163 /* DrinkTableViewDataSource.swift */,
 				0059C88F27D5426E00488163 /* DrinkVCDelegate.swift */,
@@ -282,6 +285,7 @@
 				0059C86327D53D6200488163 /* StarbucksDrinks.xcdatamodeld in Sources */,
 				0059C85927D53D6200488163 /* AppDelegate.swift in Sources */,
 				0059C85B27D53D6200488163 /* SceneDelegate.swift in Sources */,
+				0059C89827D8278200488163 /* StarbucksData.swift in Sources */,
 				0059C88E27D5406E00488163 /* DrinkTableViewDataSource.swift in Sources */,
 				0059C89527D5485C00488163 /* DrinkTableViewCell.swift in Sources */,
 				0059C89027D5426F00488163 /* DrinkVCDelegate.swift in Sources */,
